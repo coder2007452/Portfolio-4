@@ -86,17 +86,11 @@ export const workData = [
         link: 'https://java-projec.netlify.app/', // <-- add this
       },
     {
-        title: 'HTML, CSS And JAVA Project',
+        title: 'HTML, CSS Project',
         description: 'Web Design',
         bgImage: '/work-2.png',
         link: 'https://frontend-projec.netlify.app/', // <-- add this
-    },
-    {
-        title: 'Backend Project',
-        description: 'Web Design',
-        bgImage: '/work-3.png',
-        link: 'https://backend-projec.netlify.app/', // <-- add this
-    },
+    },      
     {
         title: 'React Project',
         description: 'Web Design',
@@ -108,6 +102,18 @@ export const workData = [
         description: 'Web Design',
         bgImage: '/work-5.png',
         link: 'https://full-projec.netlify.app/', // <-- add this
+    },
+    {
+        title: 'Python Project',
+        description: 'Web Design',
+        bgImage: '/work-6.png',
+        link: 'https://py-projec.netlify.app/', // <-- add this
+    },
+    {
+        title: 'PHP Project',
+        description: 'Web Design',
+        bgImage: '/work-7.png',
+        link: 'https://php-projec.netlify.app/', // <-- add this
     },
 ]
 
