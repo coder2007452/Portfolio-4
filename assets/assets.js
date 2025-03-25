@@ -34,11 +34,15 @@ import ui_icon from './ui-icon.png';
 import graphics_icon from './graphics-icon.png';
 import right_arrow from './right-arrow.png';
 import send_icon from './send-icon.png';
+import py from './py.png';
+import intell from './intell.png';
 import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
 
 export const assets = {
     user_image,
+    py,
+    intell,
     code_icon,
     netlify,
     code_icon_dark,
@@ -79,12 +83,12 @@ export const assets = {
 };
 
 export const workData = [
-    {
-        title: 'JAVA Projects',
-        description: 'Web Design',
-        bgImage: '/work-1.png',
-        link: 'https://java-projec.netlify.app/', // <-- add this
-      },
+    // {
+    //     title: 'JAVA Projects',
+    //     description: 'Web Design',
+    //     bgImage: '/work-1.png',
+    //     link: 'https://java-projec.netlify.app/', // <-- add this
+    //   },
     {
         title: 'HTML, CSS Project',
         description: 'Web Design',
@@ -103,18 +107,18 @@ export const workData = [
         bgImage: '/work-5.png',
         link: 'https://full-projec.netlify.app/', // <-- add this
     },
-    {
-        title: 'Python Project',
-        description: 'Web Design',
-        bgImage: '/work-6.png',
-        link: 'https://py-projec.netlify.app/', // <-- add this
-    },
-    {
-        title: 'PHP Project',
-        description: 'Web Design',
-        bgImage: '/work-7.png',
-        link: 'https://php-projec.netlify.app/', // <-- add this
-    },
+    // {
+    //     title: 'Python Project',
+    //     description: 'Web Design',
+    //     bgImage: '/work-6.png',
+    //     link: 'https://py-projec.netlify.app/', // <-- add this
+    // },
+    // {
+    //     title: 'PHP Project',
+    //     description: 'Web Design',
+    //     bgImage: '/work-7.png',
+    //     link: 'https://php-projec.netlify.app/', // <-- add this
+    // },
 ]
 
 export const serviceData = [
@@ -129,5 +133,5 @@ export const infoList = [
 ];
 
 export const toolsData = [
-    assets.vscode, assets.firebase, assets.mongodb, assets.figma, assets.git, assets.netlify
+    assets.vscode, assets.firebase, assets.mongodb, assets.figma, assets.git, assets.netlify, assets.py, assets.intell
 ];
