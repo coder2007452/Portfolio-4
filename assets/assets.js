@@ -107,12 +107,12 @@ export const workData = [
         bgImage: '/work-5.png',
         link: 'https://full-projec.netlify.app/', // <-- add this
     },
-    // {
-    //     title: 'Python Project',
-    //     description: 'Web Design',
-    //     bgImage: '/work-6.png',
-    //     link: 'https://py-projec.netlify.app/', // <-- add this
-    // },
+    {
+        title: 'Python Project',
+        description: 'Web Design',
+        bgImage: '/work-6.png',
+        link: 'https://py-projec.netlify.app/', // <-- add this
+    },
     // {
     //     title: 'PHP Project',
     //     description: 'Web Design',
