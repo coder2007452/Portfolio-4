@@ -83,12 +83,12 @@ export const assets = {
 };
 
 export const workData = [
-    // {
-    //     title: 'JAVA Projects',
-    //     description: 'Web Design',
-    //     bgImage: '/work-1.png',
-    //     link: 'https://java-projec.netlify.app/', // <-- add this
-    //   },
+    {
+        title: 'JAVA Projects',
+        description: 'Web Design',
+        bgImage: '/work-1.png',
+        link: 'https://java-projec.netlify.app/', // <-- add this
+      },
     {
         title: 'HTML, CSS Project',
         description: 'Web Design',
