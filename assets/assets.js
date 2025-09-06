@@ -102,12 +102,6 @@ export const workData = [
         link: 'https://react-projec.netlify.app/', // <-- add this
     },
     {
-        title: 'Portfolio Projects',
-        description: 'Web Design',
-        bgImage: '/work-5.png',
-        link: 'https://portfolio.netlify.app/', // <-- add this
-    },
-    {
         title: 'Python Project',
         description: 'Web Design',
         bgImage: '/work-6.png',
