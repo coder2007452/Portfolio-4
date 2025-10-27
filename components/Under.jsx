@@ -36,7 +36,7 @@ const Under = () => {
   return (
     <div className="h-screen flex items-center justify-center bg-gradient-to-r from-purple-600 via-blue-500 to-pink-500 animate-gradient-x text-white font-poppins">
       <div className="text-center bg-white/10 backdrop-blur-lg p-12 rounded-3xl shadow-2xl max-w-md w-full animate-fadeIn">
-        <h1 className="text-4xl mb-4 drop-shadow-md">🚧 We'll Be Back Soon</h1>
+        <h1 className="text-4xl mb-4 drop-shadow-md">🚧 Under Maintenance</h1>
         <p className="mb-8 text-lg drop-shadow-sm">
           Our website is currently undergoing maintenance.
           <br />
@@ -57,11 +57,7 @@ const Under = () => {
 
         <div className="w-14 h-14 border-4 border-white/30 border-t-white rounded-full mx-auto mb-6 animate-spin shadow-lg"></div>
 
-        <button className="px-6 py-3 bg-gradient-to-r from-pink-500 to-red-500 rounded-full font-semibold drop-shadow-md hover:scale-105 transition-transform">
-          Notify Me When Back
-        </button>
-
-        <footer className="mt-6 text-sm opacity-70">&copy; 2025 Your Website Name</footer>
+        <footer className="mt-6 text-sm opacity-70">&copy; 2025 Expert Snippet</footer>
       </div>
 
       {/* Tailwind Animations */}
