@@ -7,6 +7,7 @@ import Header from "../components/Header";
 import Navbar from "../components/Navbar";
 import Services from "../components/Services";
 import Work from "../components/Work";
+import Under from "@/components/Under";
 
 export default function Home() {
 
@@ -32,13 +33,14 @@ export default function Home() {
 
   return (
     <>
-    <Navbar isDarkMode={isDarkMode} setIsDarkMode={setIsDarkMode}/>
+    <Under isDarkMode={isDarkMode} />
+    {/* <Navbar isDarkMode={isDarkMode} setIsDarkMode={setIsDarkMode}/>
     <Header isDarkMode={isDarkMode} />
     <About isDarkMode={isDarkMode} />
     <Services isDarkMode={isDarkMode} />
     <Work isDarkMode={isDarkMode} />
     <Contact isDarkMode={isDarkMode} />
-    <Footer isDarkMode={isDarkMode} />
+    <Footer isDarkMode={isDarkMode} /> */}
     </>
   );
 }
